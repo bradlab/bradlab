@@ -37,7 +37,7 @@ I enjoy working on projects that combine **social impact**, **technology**, and 
     </p>
   </td>
   <td align="center" width="300" style="border-radius: 15px; border: 1px solid #ddd; padding: 20px; margin: 10px; vertical-align: top; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
-    <img src="./assets/images/robaloto_logo.jpg" width="250" height="250" style="border-radius: 10px;" alt="Rôbalôtô Logo"><br><br>
+    <img src="./assets/images/robaloto_logo.jpg" width="250" height="200" style="border-radius: 10px;" alt="Rôbalôtô Logo"><br><br>
     <h3>Rôbalôtô</h3>
     <p align="justify">
       A project aimed at educating students on environmental protection and equipping schools with tools for better management of their plastic waste. The project's vision is to achieve zero plastic waste in Togo by 2027 by reaching schools, markets, households, and businesses.
