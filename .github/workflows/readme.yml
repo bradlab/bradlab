@@ -1,0 +1,33 @@
+name: Lint README
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+
+jobs:
+  lint-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Lint README.md
+        run: markdownlint README.md
+        continue-on-error: true

@@ -1,0 +1,44 @@
+# .github/workflows/deploy-website.yml
+name: Build and Deploy Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Sass compiler
+        run: npm install -g sass
+
+      - name: Compile Sass to CSS
+        run: |
+          mkdir -p assets/css # Crée le dossier css si inexistant
+          sass assets/scss/style.scss assets/css/style.css
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }} # Déployer seulement si c'est la branche main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./src
+
+      - name: Copy assets to src for deployment (Alternative)
+        run: |
+          mkdir -p src/assets/images
+          mkdir -p src/assets/css
+          cp assets/images/* src/assets/images/
+          cp assets/css/style.css src/assets/css/style.css
+        # Remplace publish_dir: ./src par publish_dir: ./src après cette étape.
+        # Le step 'Compile Sass to CSS' met déjà style.css dans assets/css

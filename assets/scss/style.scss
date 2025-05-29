@@ -1,0 +1,73 @@
+/* assets/scss/style.scss */
+
+$border-color: #ddd;
+$card-border-radius: 15px;
+$image-border-radius: 10px;
+$card-padding: 20px;
+$card-margin: 10px;
+$shadow-color: rgba(0, 0, 0, 0.1);
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.projects-container {
+  text-align: center;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: $card-margin;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+tr {
+  vertical-align: top;
+}
+
+.project-card {
+  text-align: center;
+  width: 300px; // Largeur fixe pour chaque carte
+  border-radius: $card-border-radius;
+  border: 1px solid $border-color;
+  padding: $card-padding;
+  box-shadow: 2px 2px 5px $shadow-color; // Ombre pour un effet de carte
+  vertical-align: top; // Important pour aligner les cartes en haut
+  box-sizing: border-box; // S'assure que padding et border sont inclus dans la largeur/hauteur
+
+  img {
+    max-width: 100%; // S'assure que l'image ne dépasse pas la largeur de la carte
+    height: 150px; // Hauteur fixe pour les images
+    border-radius: $image-border-radius;
+    object-fit: cover; // Pour s'assurer que l'image couvre la zone sans distorsion
+  }
+
+  h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #333; // Couleur pour le titre
+  }
+
+  p {
+    text-align: justify; // Justifie le texte du paragraphe
+    font-size: 0.95em; // Taille de police légèrement plus petite
+    line-height: 1.5; // Espacement de ligne
+    color: #555; // Couleur pour le texte
+  }
+
+  a {
+    display: inline-block; // Pour pouvoir ajouter un padding ou margin si besoin
+    margin-top: 10px;
+    color: #007bff; // Couleur du lien
+    text-decoration: none; // Pas de soulignement par défaut
+    &:hover {
+      text-decoration: underline; // Soulignement au survol
+    }
+  }
+}

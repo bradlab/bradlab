@@ -15,6 +15,41 @@ I enjoy working on projects that combine **social impact**, **technology**, and 
 
 ---
 
+## 💼 Some Projects
+
+<div align="center">
+<table>
+  <tr>
+  <td align="center" width="300" style="border-radius: 15px; border: 1px solid #ddd; padding: 20px; margin: 10px; vertical-align: top; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+    <img src="./assets/images/zerodechet_cover.jpg" width="250" height="150" style="border-radius: 10px;" alt="Zéro Déchet App Screens"><br><br>
+    <h3>Zéro Déchet</h3>
+    <p align="justify">
+      A mobile application that helps users sort and manage their household waste. Users can practice selective sorting based on our guidelines, earn points that convert into a reward fund, and even turn their waste into a secondary source of income.
+      <br><a href="https://play.google.com/store/apps/details?id=com.zerodechet.app">Download on PlayStore</a>
+    </p>
+  </td>
+  <td align="center" width="300" style="border-radius: 15px; border: 1px solid #ddd; padding: 20px; margin: 10px; vertical-align: top; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+    <img src="./assets/images/dacpharma_mascott.jpg" width="250" height="150" style="border-radius: 10px;" alt="DacPharma Logo"><br><br>
+    <h3>DacPharma</h3>
+    <p align="justify">
+      A chatbot developed to provide the population with access to pharmacies at any time of the day or night. It is available on WhatsApp and Telegram.
+      <br><a href="https://dph.page.link/dph">Access on WhatsApp</a>
+    </p>
+  </td>
+  <td align="center" width="300" style="border-radius: 15px; border: 1px solid #ddd; padding: 20px; margin: 10px; vertical-align: top; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">
+    <img src="./assets/images/robaloto_logo.jpg" width="250" height="150" style="border-radius: 10px;" alt="Rôbalôtô Logo"><br><br>
+    <h3>Rôbalôtô</h3>
+    <p align="justify">
+      A project aimed at educating students on environmental protection and equipping schools with tools for better management of their plastic waste. The project's vision is to achieve zero plastic waste in Togo by 2027 by reaching schools, markets, households, and businesses.
+      <br><a href="https://eco-citoyennete.org/">Learn more</a>
+    </p>
+  </td>
+  </tr>
+</table>
+</div>
+
+---
+
 ## 🔧 Tech Stack
 
 **Languages & Frameworks**  
