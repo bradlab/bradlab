@@ -15,7 +15,7 @@ I enjoy working on projects that combine **social impact**, **technology**, and 
 
 ---
 
-## 💼 Some Projects
+# 💼 Some Projects
 
 <div align="center">
 <table>
@@ -49,22 +49,21 @@ I enjoy working on projects that combine **social impact**, **technology**, and 
 </div>
 
 ---
-
 ## 🔧 Tech Stack
 
-**Languages & Frameworks**  
+### **Languages & Frameworks**  
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
 
-**Backend**  
+### **Backend**  
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-F72C1F?style=for-the-badge&logo=laravel&logoColor=white)
 
-**Frontend & Mobile**  
+### **Frontend & Mobile**  
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
@@ -95,9 +94,23 @@ I enjoy working on projects that combine **social impact**, **technology**, and 
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge\&logo=redis\&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge\&logo=amazon-dynamodb\&logoColor=white)
 
-**Other Tools**  
+### **Other Tools**  
 ![Dialogflow](https://img.shields.io/badge/Dialogflow-FF9800?style=for-the-badge&logo=dialogflow&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+---
+
+## 📊 GitHub Stats:
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=bradlab&show=prs_merged_percentage&show_icons=true&theme=tokyonight&rank_icon=github&card_width=500px" alt="Bradlab's GitHub stats" />
+</div>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bradlab&theme=radical&hide_border=false&card_width=500px" alt="Bradlab's GitHub Streak Stats" />
+</div>
+
+## 🏆 GitHub Trophies  
+![](https://github-profile-trophy.vercel.app/?username=bradlab&theme=gitdimmed&rank=-C,-D,-?)
 
 ---
 
