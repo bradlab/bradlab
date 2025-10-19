@@ -109,8 +109,10 @@ I enjoy working on projects that combine **social impact**, **technology**, and 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=bradlab&theme=radical&hide_border=false&card_width=500px" alt="Bradlab's GitHub Streak Stats" />
 </div>
 
-## 🏆 GitHub Trophies  
-![](https://github-profile-trophy.vercel.app/?username=bradlab&theme=gitdimmed&rank=-C,-D,-?)
+## 🏆 GitHub Trophies
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=bradlab&theme=gitdimmed&rank=-C,-D,-?" alt="Bradlab's Trophies" />
+</div>
 
 ---
 
